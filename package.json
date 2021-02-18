@@ -1,0 +1,23 @@
+{
+  "name": "rescript-react-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w",
+    "parcel:serve": "parcel serve --out-dir ./dev_dist ./public/index.html",
+    "parcel:build": "parcel build --out-dir ./dist ./public/index.html"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "Ryan Moore",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^8.3.0"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.1",
+    "parcel": "^1.12.4"
+  }
+}
